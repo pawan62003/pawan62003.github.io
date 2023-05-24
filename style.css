@@ -213,13 +213,7 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
-.about .title::after{
-    /* content: "who i am"; */
-}
-.about .about-content .left{
-    /* width: 45%; */
-}
+
 .about .about-content .left img{
     height: 400px;
     width: 400px;
@@ -383,9 +377,7 @@ section .title::after{
 } */
 
 /* teams section styling */
-.teams .title::after{
-    /* content: "who with me"; */
-}
+
 .teams .carousel .card{
     background: #111;
     border-radius: 6px;
@@ -445,10 +437,7 @@ section .title::after{
     background: #712cf9!important;
 }
 
-/* contact section styling */
-.contact .title::after{
-    /* content: "get in touch"; */
-}
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
