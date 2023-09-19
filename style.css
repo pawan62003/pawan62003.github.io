@@ -623,6 +623,113 @@ footer span a:hover{
     }
 }
 
+
+
+
+
+/* styles.css */
+#projects {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.project-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    max-width: 400px; /* Increase the max-width for each project card */
+    background-color: #111;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Expand the card width to fit its container */
+}
+
+.card:hover {
+    background-color: #712cf9;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-card img {
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto;
+    width: 100%; /* Make the image width 100% of its container */
+    max-height: 300px; /* Increase the max-height for the image */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f4f2f2;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 20px;
+    color: #faf6f6;
+    margin-bottom: 20px;
+}
+
+.project-tech-stack {
+    display: flex;
+    gap: 10px;
+}
+
+.project-tech-stack img {
+    width: 40px; /* Increase the tech stack image width */
+    height: 40px; /* Increase the tech stack image height */
+    border-radius: 50%;
+}
+
+.project-links {
+    display: flex;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.project-github-link,
+.project-deployed-link {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #007bff;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.project-github-link:hover,
+.project-deployed-link:hover {
+    background-color: #0056b3;
+}
+
+
+
+
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
